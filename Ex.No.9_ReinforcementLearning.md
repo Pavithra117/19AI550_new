@@ -132,6 +132,7 @@ public class RollerAgent : Agent
         continuous[1] = Input.GetAxis("Vertical");
     }
 }
+```
 
 2. Create a "Rollerball.yaml" file (create a Config folder inside your project ) attach the following code 
 
@@ -157,10 +158,15 @@ behaviors:
     max_steps: 500000
     time_horizon: 64
     summary_freq: 10000
-### Output:
+## Output:
+
+
+<img width="1191" height="736" alt="Screenshot 2026-06-03 131917" src="https://github.com/user-attachments/assets/5b816cda-9aec-4efe-ad97-6b786e020265" />
 
 
 
+
+<img width="1054" height="729" alt="image" src="https://github.com/user-attachments/assets/beb86e7b-bf6c-401c-a9ca-a9fc09822cb5" />
 
 
 
